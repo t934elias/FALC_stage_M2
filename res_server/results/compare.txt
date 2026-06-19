@@ -1,0 +1,219 @@
+https://github.com/FrLdy/ETR-fr
+
+
+
+
+#mistral_dpo
+
+{"falc":"L\u00e9a est triste Ce matin, Cl\u00e9ment est tout content. C'est l'anniversaire de sa s\u0153ur L\u00e9a. 
+Cl\u00e9ment entre dans la chambre de L\u00e9a. \u00ab Bon anniversaire, petite s\u0153ur ! Tu as 8 ans aujourd'hui. 
+Tu es grande maintenant! \u00bb",
+
+"original":"L\u00e9a, pourquoi es-tu triste ? Ce matin, Cl\u00e9ment se r\u00e9veille tout content. 
+Aujourd'hui, c'est l'anniversaire de sa petite s\u0153ur L\u00e9a. Encore en pyjama, il saute de son lit et se 
+pr\u00e9cipite vers la chambre de L\u00e9a. Il est impatient de lui souhaiter son anniversaire. Arriv\u00e9 devant sa porte, 
+il frappe doucement avant d'entrer en criant joyeusement: \u00ab Bon anniversaire, petite s\u0153ur ! \u00bb L\u00e9a, 
+encore un peu endormie, ouvre un \u0153il. La petite fille a eu du mal \u00e0 trouver le sommeil cette nuit. C'est pourquoi, 
+ce matin elle est vraiment tr\u00e8s fatigu\u00e9e. Elle aurait voulu se reposer encore un peu. \u00c0 la place, son 
+fr\u00e8re n'arr\u00eate pas de sautiller devant elle en r\u00e9p\u00e9tant gaiement : \u00ab Tu es grande maintenant! \u00bb."}
+
+
+Léa, pourquoi tu sembles triste aujourd'hui ? Ce matin, Clément se réveille heureux. C'est l'anniversaire de ta petite sœur Léa. 
+Il court vers ta chambre pour te souhaiter bon anniversaire. Il est impatient de te voir. 
+Il frappe doucement à la porte avant d'entrer en criant joyeusement : "Bon anniversaire, ma petite sœur !" Léa ouvre un œil. 
+Elle a eu du mal à dormir cette nuit. C'est pourquoi, ce matin, elle est vraiment fatiguée. Elle aurait voulu se reposer encore 
+un peu. Mais son frère ne s'arrête pas de sauter devant elle en disant gaiement : "Tu es grande maintenant !"
+
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+BLEU Score: 10.2602
+ROUGE-L: 34.6154
+SARI Score: 39.5210
+
+BERTScore:
+Precision: 71.2998
+Recall:    84.7782
+F1:        77.4570
+
+Readability:
+flesch reading ease: 76.2213
+LIX:                 27.7917
+Compression Ratio:   16.5217
+
+Novelty:
+Novelty Score: 18.4211
+
+Combined Metric:
+SRB Score: 44.7079
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.8714
+neutral: 0.0773
+anger: 0.0265
+joy: 0.0171
+surprise: 0.0056
+fear: 0.0021
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0632
+neutral: 0.0435
+anger: 0.0083
+joy: 0.0065
+surprise: 0.0037
+fear: 0.0012
+0.0014710076674501193
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.0424
+neutral: 0.0542
+anger: 0.0160
+joy: 0.1177
+surprise: 0.0039
+fear: 0.0012
+0.002673834383258189
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+#mistral:
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. 
+Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. 
+Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, 
+ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se 
+reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC predit : 
+Léa, why are you sad? This morning, Clément wakes up happy. Today is Léa's birthday. 
+Still in pajamas, he jumps out of bed and rushes to Léa's room. He can't wait to wish her a happy birthday. When he reaches her door, he softly
+knocks before entering and shouting happily: "Happy birthday, little sister!" Léa, still half asleep, opens one eye. The girl had trouble sleeping last night.
+That's why, this morning she is very tired. She wanted to rest a little more. Instead, her brother doesn't stop jumping in front of her, repeating cheerfully:
+"You're big now!"
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. 
+Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+
+
+
+BLEU Score: 0.8769
+ROUGE-L: 14.2857
+SARI Score: 31.7002
+
+BERTScore:
+Precision: 65.9133
+Recall:    75.4297
+F1:        70.3512
+
+Readability:
+flesch reading ease: 84.0773
+LIX:                 24.4923
+Compression Ratio:   14.7826
+
+Novelty:
+Novelty Score: 97.2973
+
+Combined Metric:
+SRB Score: 25.9157
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+neutral: 0.6075
+sad: 0.1951
+joy: 0.1317
+surprise: 0.0409
+anger: 0.0141
+fear: 0.0108
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.7395
+neutral: 0.5736
+anger: 0.0041
+joy: 0.1211
+surprise: 0.0389
+fear: 0.0099
+0.05509281871884797
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+neutral: 0.5844
+sad: 0.6338
+joy: 0.0031
+surprise: 0.0391
+anger: 0.0036
+fear: 0.0099
+0.027887523746941367
