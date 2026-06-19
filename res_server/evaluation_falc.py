@@ -37,7 +37,7 @@ METRIC_KEY_NOVELTY = "novelty"
 METRIC_KEY_SRB = "srb"
 METRIC_KEY_SARI = "sari"
 
-# --- Load Data ---
+
 with open("results/falc_generes.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -60,7 +60,7 @@ for entry in data:
 
 df = pd.DataFrame(flattened_rows)
 
-# --- Initialize Global Models & Metrics (Loaded ONCE) ---
+
 lang = "fr"
 spacy_models = {"en": "en_core_web_md", "fr": "fr_core_news_md"}
 nlp = spacy.load(spacy_models[lang])
@@ -78,7 +78,7 @@ classifier = pipeline(
     device=-1 # Set to 0 if you install torch with CUDA and upgrade versions
 )
 
-# --- Helper Vector Functions ---
+
 
 def cosine_distance_vect(res1, res2):
     d1 = {x["label"]: x["score"] for x in res1}
@@ -99,29 +99,29 @@ def compute_novelty_score(source, prediction):
         return 0.0
     return (len(pred_unigrams - src_unigrams) / len(pred_unigrams)) * 100
 
-# --- Vectorized Processing Pipeline ---
+
 
 predictions = df['falc'].astype(str).tolist()
 references = df['falc_text'].astype(str).tolist()
 sources = df['original_text'].astype(str).tolist()
 
-# 1. Pipeline Classifier Batch Execution (Massive speed up)
+
 results_pred_all = classifier(predictions, batch_size=16)
 results_ori_all = classifier(sources, batch_size=16)
 results_ref_all = classifier(references, batch_size=16)
 
-# 2. Batch Metric Computations
-bertscore_results = bertscore_metric.compute(predictions=predictions, references=references, lang=lang)
-# sari_results = sari_metric.compute(predictions=predictions, references=[[r] for r in references], sources=sources)
 
-# Readability Batching via SpaCy Pipe
+bertscore_results = bertscore_metric.compute(predictions=predictions, references=references, lang=lang)
+
+
+
 docs_preds = list(nlp.pipe(predictions))
 docs_sources = list(nlp.pipe(sources))
 
 metrics_preds = td.extract_dict(docs_preds, include_text=False)
 metrics_sources = td.extract_dict(docs_sources, include_text=False)
 
-# --- Reconstruct Results Matrix ---
+
 resultats = []
 
 for idx in range(len(df)):
@@ -159,8 +159,7 @@ for idx in range(len(df)):
     
     bert_avg = (bs_prec + bs_rec + bs_f1) / 3
     
-    # Custom Reward DPO Equation Setup derived from your specifications
-    # Adjusted to conform with normal 0-100 scales across variables
+    
     score_dpo = (0.2 * sari_val) + (0.3 * bert_avg) + (0.1 * fre_score) + (0.05 * nov_score) + (0.05 * comp_ratio) + (0.25 * sim_ori_pred * 100)
 
     metric_row = {
@@ -183,7 +182,7 @@ for idx in range(len(df)):
 
 df_res = pd.DataFrame(resultats)
 
-# --- Save Records Out ---
+
 os.makedirs("results", exist_ok=True)
 # df.to_excel("results/summaries_for_generation.xlsx", index=False)
 # df_res.to_excel("results/summaries_for_evaluation.xlsx", index=False)
