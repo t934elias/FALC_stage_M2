@@ -22,8 +22,8 @@ for entry in data:
         rows.append({
             "sentence_id": entry["sentence_id"],
             "original_text": entry["original_text"],
-            "ref_text": entry["falc"],          # competitor model output
-            "my_text": run["summary"],          # your model output
+            "ref_text": entry["falc"],          
+            "my_text": run["summary"],        
             "temperature": run["parameters"]["temperature"],
             "num_ctx": run["parameters"]["num_ctx"],
         })
