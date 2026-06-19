@@ -507,19 +507,16 @@ def cosinie_distance(res1, res2):
     # distance = cosine(vect1, vect2)
 
     # return distance
+
+    
     dict1 = {item['label']: item['score'] for item in res1[0]}
     dict2 = {item['label']: item['score'] for item in res2[0]}
     
-    # 2. Get a sorted list of all unique emotion keys present in both
-    # (This ensures they are in the exact same alphabetical order)
     all_keys = sorted(list(set(dict1.keys()).union(dict2.keys())))
     
-    # 3. Extract scores aligned perfectly to that sorted key list
-    # (Using .get(key, 0.0) handles cases where an emotion might be missing from one of the results)
     vect1 = np.array([dict1.get(key, 0.0) for key in all_keys])
     vect2 = np.array([dict2.get(key, 0.0) for key in all_keys])
     
-    # 4. Safely calculate the cosine distance
     distance = cosine(vect1, vect2)
     
     return distance
