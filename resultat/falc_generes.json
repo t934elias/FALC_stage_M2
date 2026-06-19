@@ -1,0 +1,527 @@
+[
+    {
+        "sentence_id": 1,
+        "original_text": "La cloche sonne. C'est la fin de l'ann\u00e9e, tant attendue par tous les \u00e9l\u00e8ves. Une ru\u00e9e de jeunes franchit la grille du coll\u00e8ge avec des hurlements de joie. Lucas traverse la cour d'un pas l\u00e9ger. \u00ab Salut, bonnes vacances! \u00bb, lui crient ses amis en lui faisant des signes de la main. Bonnes vacances, pense Lucas, facile \u00e0 dire, mais qu'est-ce que je vais bien pouvoir faire de mes journ\u00e9es? Comme le magasin de ses parents reste ouvert tout l'\u00e9t\u00e9, la famille ne part pas. Ses copains, eux, seront tous par monts et par vaux. Et, comble de malchance, Manon, la petite-fille des voisins, ne vient pas au village cet \u00e9t\u00e9. Elle a appel\u00e9 Lucas de l'a\u00e9roport pour lui annoncer qu'elle ratait deux jours de classe pour partir pour l'Afrique avec ses parents. Elle avait l'air si contente de faire un safari-photo ! Lucas se r\u00e9jouit pour elle, mais au fond, il est d\u00e9\u00e7u de ne pas la revoir. Il doit bien l'admettre : Manon lui manque terriblement.",
+        "falc": "La cloche sonne. L'\u00e9cole est finie. Super ! Ce sont les vacances. Mais Lucas se demande : \u00ab Que faire de mes vacances ? \u00bb Manon ne vient pas en vacances chez son papi et sa mamie. Manon fait un safari en Afrique avec son papa et sa maman. Lucas est triste de ne pas voir Manon.",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "La cloche sonne. Tous les \u00e9l\u00e8ves courent joyeux.\n\u00ab Salut, bonnes vacances ! \u00bb crient ses amis.\n\nMais Lucas reste pensif :\n*\u00ab Qu\u2019est-ce que je vais faire ? Mes copains partent loin.\nManon ne sera pas l\u00e0 cette ann\u00e9e.\nElle a voyag\u00e9 en Afrique avec ses parents.\nLucas est triste de ne plus la voir. \u00bb*\n\n*(Il manque un peu.)*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "*La cloche sonne \u2013 c\u2019est l\u2019\u00e9t\u00e9 !*\nLes \u00e9l\u00e8ves courent tous en riant dehors.\nLucas sourit, l\u00e9ger comme un papillon.\n\n\u00ab Salut ! Bonnes vacances ! \u00bb crient ses copains en lui faisant des signe de main.\nMais dans le c\u0153ur de Lucas :\n*\"Qu\u2019est-ce que je vais faire ici seul ?\"*\n\nSon magasin reste ouvert. Sa famille reste au village.\nSes potes partent loin\u2026\nEt Manon ? Elle est partie pour l\u2019Afrique !\n\n*Elle avait un sourire si large, aujourd\u2019hui on ne la voit m\u00eame pas.*\nLucas serre les poings : *\"Je lui manque\u2026 trop.\"*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "*(La cloche sonne \u2013 tout le monde f\u00eate !)*\nLes \u00e9l\u00e8ves courent tous joyeux dans le coll\u00e8ge. \u00ab Bonnes vacances ! \u00bb crient les amis \u00e0 Lucas.\n\nMais Lucas pense :\n*\"Et moi ? O\u00f9 vais-je passer ces vacances ?*\n*Ma famille reste au magasin. Tous mes copains vont loin.*\n*Oh non\u2026 Manon, la meilleure amie, ne sera pas l\u00e0 cette fois.*\n*Sauf qu\u2019elle a fait un safari en Afrique ! Elle est trop contente !*\n*Moi, je me sens seul sans elle.\"*\n\n*(Sa voix est triste et pleine de nostalgie.)"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Les \u00e9l\u00e8ves courent hors du coll\u00e8ge quand la cloche sonne.\n\u00ab Salut, vacances ! \u00bb Ils crient en riant.\nLucas marche vite dans la cour.\n**C\u2019est l\u2019\u00e9t\u00e9, tout le monde a h\u00e2te.**\n*\"Mais qu\u2019en ferai-je sans amis ?\"*\nM\u00eame Manon part. *\"Je ne verrai pas Manon.\"*\n\nLa voix de Manon lui arrive depuis loin :\n*\u00ab Oh Lucas ! On part en Afrique pour faire du safari-photo ! \u00bb*\n\nLucas est content pour elle.\nmais il sourit \u00e0 peine\u2026 *\u00ab Je la regrette d\u00e9j\u00e0.\"*"
+            }
+        ]
+    },
+    {
+        "sentence_id": 2,
+        "original_text": "En arrivant chez lui, Lucas jette son cartable dans l'entr\u00e9e. Apr\u00e8s avoir d\u00e9vor\u00e9 trois pains au lait et une tablette de chocolat, il s'allonge sur le canap\u00e9 avec sa console de jeux. Ouf, repos! Son t\u00e9l\u00e9phone portable sonne, ce doit \u00eatre sa maman qui veut savoir comment s'est pass\u00e9 le dernier jour de classe. Oh, pense Lucas, elle pourrait attendre ce soir. Allez, je vais \u00eatre sympa, je r\u00e9ponds quand m\u00eame. Il pose sa console et s'empare du t\u00e9l\u00e9phone. Le pr\u00e9nom qui s'affiche sur l'\u00e9cran le surprend : Manon. Lucas r\u00e9pond vite. Il entend son amie hurler: \u00ab Au secours, Lucas! J'ai besoin de toi ! \u00bb. M\u00e9dus\u00e9, il bafouille : \u00ab Manon ! Tu es o\u00f9 ? \u00bb. Pas de r\u00e9ponse. Un silence de mort. Le jeune homme reste bouche b\u00e9e. Comment peut-il aider Manon, cens\u00e9e se trouver \u00e0 des milliers de kilom\u00e8tres de l\u00e0 ?",
+        "falc": "Lucas rentre dans sa maison. Il go\u00fbte. Soudain, le t\u00e9l\u00e9phone de Lucas sonne. C'est Manon : \u00ab Au secours, au secours! \u00bb \u00ab Je dois vite aller aider Manon. Elle est en danger. \u00bb Lucas a peur pour Manon.",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "\u00ab Maman, je suis au t\u00e9l\u00e9phone avec Manon. Elle a besoin d'aide ! \u00bb Lucas est tr\u00e8s triste et paniqu\u00e9.\nIl ne sait pas o\u00f9 elle est. Il hurle : *\u00ab Au secours, Manon ! Je viens imm\u00e9diatement ! \u00bb*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "\u00ab Maman, je vais \u00eatre sympa pour toi. \u00bb Lucas r\u00e9pond vite au message : *\u00ab Au secours, Manon ! Je dois t\u2019aider ! \u00bb* Il reste tr\u00e8s surpris. \u00ab O\u00f9 es-tu, Manon ? \u00bb Mais elle n\u2019a pas r\u00e9pondu. Un silence long et lourd. Lucas ne comprend pas comment aider une amie \u00e0 des milliers de kilom\u00e8tres loin."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas ouvre sa porte. Il mange trois pains au lait et un chocolat. Il s\u2019allonge sur le canap\u00e9 avec ses jeux.\n\nLe t\u00e9l\u00e9phone sonne : c\u2019est Manon. Elle hurle : *\u00ab Au secours ! \u00bb*\n*\u00ab O\u00f9 es-tu, Manon ? \u00bb* demande Lucas.\nSilence tr\u00e8s long. Elle n\u2019a pas r\u00e9pondu.\nLucas se sent tr\u00e8s perdu. *Que faire pour aider mon amie ?*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas tombe sur son t\u00e9l\u00e9phone. Sa maman pourrait attendre un peu.\n\nUne inconnue s\u2019appelle Manon. Son amie pleure : *\u00ab Au secours ! J\u2019ai besoin de toi ! \u00bb*\n\nManon est loin, tr\u00e8s loin.\n\n*\u00ab Lucas ! O\u00f9 es-tu ? \u00bb* Le gar\u00e7on n\u2019arrive pas \u00e0 parler. Il a peur et ne sait pas comment aider."
+            }
+        ]
+    },
+    {
+        "sentence_id": 3,
+        "original_text": "Lucas prend son visage entre ses mains et r\u00e9fl\u00e9chit. Une seule solution : demander conseil \u00e0 Flairtout, son ami le chien d\u00e9tective. Il remet ses sandales et court jusqu'\u00e0 la clairi\u00e8re. Flairtout se trouve d\u00e9j\u00e0 aux commandes de Luna, sa soucoupe volante. Il s'\u00e9crie : \u00ab Viens vite, Lucas! Manon est en danger ! \u00bb. \u00c0 ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit \u00e0 son amie. \u00ab Nous partons la rejoindre en Afrique \u00bb, continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitt\u00e9 son pays! Il reprend vite ses esprits et d\u00e9cide de laisser un message sur le r\u00e9pondeur de sa maison pour rassurer ses parents. Il compose le num\u00e9ro et prend sa voix la plus naturelle possible : \u00ab C'est Lucas, je suis invit\u00e9 par un copain \u00e0 dormir chez lui, bisous! \u00bb Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'\u00e9voquer un d\u00e9part imminent vers le continent africain. Il imagine leur stup\u00e9faction ! Flairtout lui adresse un clin d'\u0153il complice. Luna d\u00e9colle. Voici Lucas et Flairtout en route pour une nouvelle aventure\u2026",
+        "falc": "Seul, Flairtout, le chien d\u00e9tective, peut aider Lucas. Lucas retrouve Flairtout dans la for\u00eat. Nos 2 amis montent dans la soucoupe. Lucas t\u00e9l\u00e9phone \u00e0 sa maman pour la rassurer. \u00ab Luna, d\u00e9collage ! Nous allons en Afrique retrouver Manon. \u00bb En route pour une nouvelle aventure !",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas serre les poings. \u00ab Je vais chercher Flairtout ! Manon est en danger. \u00bb Il court vite vers la clairi\u00e8re.\n\nFlairtout rit : *\u00ab Viens vite, Lucas ! On va aider Manon en Afrique ! \u00bb*\n\nLes larmes coulent sur le visage de Lucas. *\u00ab Non\u2026 je ne peux pas partir ! \u00bb* Il compose un faux message pour ses parents :\n*\u00ab C\u2019est Lucas, je dors chez un copain, bisous ! \u00bb*\n\nFlairtout lui fait un clin d\u2019\u0153il. *\u00ab On part en voyage ! \u00bb*\nLuna s\u2019envole. Lucas et Flairtout sont pr\u00eats \u00e0 partir\u2026 vers une aventure lointaine."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Flairtout court : *\u00ab Manon est en danger ! \u00bb*\nLucas pleure. *\u00ab Non, pas Manon ! Je ne peux pas la perdre ! \u00bb*\n\nLucas compose un message :\n*\u00ab C'est Lucas, je dors chez un copain, bisous ! \u00bb* (Mentir pour ne pas faire peur.)\n\nFlairtout sourit : *\u00ab On part ! \u00bb*\nLuna s\u2019envole. Lucas et Flairtout partent ensemble.\nUne aventure nouvelle commence !"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas serre les poings. *\u00ab Mon amie Manon est en danger ! On va partir en Afrique. \u00bb* Les larmes coulent sur son visage.\n\n\u2014 *\u00ab Je ne peux pas dire \u00e7a \u00e0 mes parents. Mon c\u0153ur n\u2019y arrive pas ! \u00bb*\n\nIl ment vite : *\u00ab C\u2019est Lucas, je dors chez mon copain\u2026 Bisous !* \u00bb\n\nFlairtout lui sourit : *\u00ab On va voir l\u2019aventure ! \u00bb* Et ils partent en soucoupe volante.\n\n*(Un vent d\u2019adr\u00e9naline les emporte vers une aventure inconnue.)*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas se met \u00e0 pleurer : *\"Mon copain Flairtout m'a dit qu'on va aider Manon !\"* Il sent tr\u00e8s mal.\nIl \u00e9crit vite sur son t\u00e9l\u00e9phone : *\"C\u2019est moi, je dors chez un pote, bisous !\"* M\u00eame si c\u2019est faux.\nFlairtout \u00e9clate de rire en souriant : *\"Va, on y part pour une grosse aventure !\"*"
+            }
+        ]
+    },
+    {
+        "sentence_id": 4,
+        "original_text": "Apr\u00e8s quelques heures de vol, Luna atterrit dans la savane. Flairtout et Lucas descendent de la soucoupe. Il fait tr\u00e8s chaud et humide. Nos amis se dirigent \u00e0 pied vers le village, qu'ils aper\u00e7oivent au loin. Le jeune homme est frapp\u00e9 par la beaut\u00e9 du paysage qui l'entoure : \u00e0 perte de vue, des palmiers et des bananiers, sous un magnifique coucher de soleil. Il reconna\u00eet aussi des champs d'ananas.",
+        "falc": "\u00ab Nous sommes arriv\u00e9s. \u00bb Luna atterrit dans la savane. Lucas et Flairtout sortent de la soucoupe. Ils marchent vers le village. Il fait chaud.",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Luna et ses amis descendent de la soucoupe.\nLe soleil couchant brille sur la savane chaude et humide.\nDes arbres (palmiers, bananiers) et des champs d\u2019ananas s\u2019\u00e9tendent \u00e0 perte de vue.\nC\u2019est magnifique !"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Luna touche terre dans la savane. *Flair* et Lucas descendent. Le soleil couchant brille tr\u00e8s fort, chaud et humide.\n\nIls marchent vers le village loin. *Flair* admire : partout, palmiers et bananiers brillent sous le soleil. Il voit aussi des champs d\u2019ananas dor\u00e9s."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Luna et ses amis arrivent dans le pays chaud et humide. Ils voient le village loin. Le ciel est rouge au coucher du soleil.\nLes arbres ont des grandes feuilles. Des fruits mous sont partout. La savane est belle sous la lumi\u00e8re dor\u00e9e."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "En quelques heures, Luna touche terre dans la savane.\nFlair et Lucas descendent de leur avion.\nIl fait **tr\u00e8s chaud** et humide.\n\n\u00ab Wow ! \u00bb dit-il en regardant tout autour.\nLa nature est magnifique :\ndes **palmiers**, des **bananiers** \u00e0 l'infini\u2026\nDes champs d\u2019ananas aussi.\n\nUn super coucher de soleil !"
+            }
+        ]
+    },
+    {
+        "sentence_id": 5,
+        "original_text": "Dans un \u00e9tang s'abreuvent des girafes, des \u00e9l\u00e9phants et quelques antilopes. Lucas regarde ce merveilleux spectacle, les yeux \u00e9carquill\u00e9s. Je n'ai jamais vu de tels animaux ailleurs que dans un zoo, se dit-il. Il en oublie presque la raison de sa venue en pleine brousse.",
+        "falc": "\u00ab Regarde, Flairtout! Des girafes, des \u00e9l\u00e9phants, des antilopes. Super ! C'est plus sympa que le zoo ! \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Dans l\u2019eau, des girafes, des \u00e9l\u00e9phants et quelques antilopes boivent. Lucas regarde tout \u00e7a avec \u00e9merveillement. *\u00ab Wow ! Ce n\u2019est jamais arriv\u00e9 ailleurs que dans un zoo ! \u00bb* Il ne se souvient plus pourquoi il est ici dans la savane."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Dans l\u2019eau, des girafes, des \u00e9l\u00e9phants et des antilopes boivent. Lucas est tr\u00e8s surpris : *\u00ab Oh ! Des animaux si beaux ! C\u2019est comme au zoo\u2026 \u00bb* Il regarde sans rien faire, les yeux grands ouverts."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Dans l'\u00e9tang, il y a des girafes et des \u00e9l\u00e9phants qui boivent. Lucas s\u2019\u00e9tonne : \u00ab Ces animaux ! Je ne les ai jamais vus ici comme dans la nature ! \u00bb"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "L\u00e9a est triste parce qu\u2019elle a perdu **sa poup\u00e9e Lila**, son amie pr\u00e9f\u00e9r\u00e9e.\n**Maman** et **Cl\u00e9ment** promettent qu\u2019ils vont chercher cette poup\u00e9e ensemble.\n\nUn jour d\u2019anniversaire, une journ\u00e9e sp\u00e9ciale\u2026 *(sous-entendu : \"pourquoi tout est si compliqu\u00e9 ?\")*\nDans l\u2019\u00e9tang : des girafes, \u00e9l\u00e9phants et quelques antilopes.\nLucas les observe avec \u00e9merveillement\u2026 *ils ne sont plus \u00e0 lui.*\n\n---\n*(D\u00e9tails \u00e9motionnels : L\u00e9a a du mal dans un monde id\u00e9al ; Lucas s\u2019adapte \u00e0 de nouvelles merveilles qui d\u00e9passent son projet initial.)*"
+            }
+        ]
+    },
+    {
+        "sentence_id": 6,
+        "original_text": "Un couple d'une cinquantaine d'ann\u00e9es vient \u00e0 leur rencontre. Lucas suppose qu'il s'agit des parents de Manon. Il remarque d'ailleurs un petit air de famille. La dame est brune aux cheveux raides. Le monsieur a les m\u00eames yeux en amande que sa fille. Le p\u00e8re et la m\u00e8re de Manon lui serrent la main : \u00ab Bonjour Lucas, tu es gentil d'\u00eatre venu aussi vite. C'est nous qui avons pr\u00e9venu Flairtout de la disparition de notre fille. Elle s'est carr\u00e9ment volatilis\u00e9e pendant la nuit! La police locale a fouill\u00e9 tout le village, en vain. \u00bb L'angoisse se lit sur leur visage. Lucas comprend qu'ils comptent sur lui pour retrouver leur fille. Il les regarde droit dans les yeux et d\u00e9clare, comme s'il \u00e9tait un super h\u00e9ros: \u00ab Ne vous inqui\u00e9tez pas, je vous donne ma parole que vous reverrez Manon ! \u00bb Il se force \u00e0 sourire, pour ne pas leur montrer qu'il n'a aucune id\u00e9e de la mani\u00e8re dont il va s'y prendre.",
+        "falc": "Le papa et la maman de Manon arrivent. \u00ab Bonjour Lucas, bonjour Flairtout. Manon a disparu pendant la nuit. Les policiers cherchent Manon dans tout le village. Personne ne trouve Manon. \u00bb \u00ab Nous avons tr\u00e8s peur. \u00bb \u00ab Il ne faut pas avoir peur. Je vais retrouver Manon. \u00bb \u00ab C'est promis. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "\u00ab Bonjour Lucas ! Vous \u00eates venu vite ? C\u2019est nous qui avons dit \u00e0 Flairtout que Manon a disparu la nuit derni\u00e8re. La police a cherch\u00e9 partout, mais rien n\u2019a march\u00e9. \u00bb Les parents ont peur tr\u00e8s fort.\n\nLucas dit : \u00ab Ne vous inqui\u00e9tez pas. Je vais trouver Manon. \u00bb Il sourit pour ne pas montrer qu\u2019il n\u2019est pas s\u00fbr."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Les parents de Manon viennent trouver Lucas. *\u00ab Bonjour, merci d\u2019\u00eatre venu vite ! \u00bb*\nIls sont tr\u00e8s inquiets : *\u00ab Notre fille a disparu pendant la nuit. La police a cherch\u00e9 partout\u2026 rien ! \u00bb*\n\nLucas dit, ferme et courageux : *\u00ab Ne vous inqui\u00e9tez pas, je vais tout faire pour retrouver Manon ! \u00bb*\nIl sourit fort, m\u00eame s\u2019il ne sait pas encore comment."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Un monsieur et une dame viennent vers nous.\nC\u2019est les parents de Manon.\n\n\u00ab Bonjour Lucas ! Merci d\u2019\u00eatre venu vite.\nManon a disparu pendant la nuit !\nElle est partie tout seule.\nLes policiers ont cherch\u00e9 partout\u2026\nTout le village aussi, mais rien n\u2019a march\u00e9.\n\nNous sommes tr\u00e8s inquiets. \u00bb\n\nIls ont besoin d\u2019aide.\nLucas dit : *\u00ab Ne vous inqui\u00e9tez pas,\nJe vais tout faire pour retrouver Manon ! \u00bb*\n\nIl sourit fort. Mais en vrai\u2026 il ne sait pas encore comment trouver sa fille."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Le papa et maman de Manon viennent vers Lucas. Ils disent : **\u00ab Bonjour, tu es gentil d\u2019\u00eatre venu vite ! C\u2019est nous qui avons dit \u00e0 Flairtout que Manon a disparu la nuit. On a cherch\u00e9 partout dans le village. Mais rien n\u2019a fonctionn\u00e9. \u00bb**\n\nSur leurs visages, c\u2019est de l\u2019angoisse. Lucas pose son regard sur eux et dit, tr\u00e8s ferme : **\u00ab Ne vous inqui\u00e9tez pas ! Je vais tout faire pour retrouver Manon. \u00bb**\nIl sourit un peu (m\u00eame s\u2019il est pas s\u00fbr comment faire)."
+            }
+        ]
+    },
+    {
+        "sentence_id": 7,
+        "original_text": "Flairtout tire son ami de l'embarras. \u00ab Commen\u00e7ons par fouiller sa chambre \u00bb, propose-t-il. Des huttes avec des toits en paille sont diss\u00e9min\u00e9es dans tout le village. Nos amis suivent la famille de Manon jusqu'\u00e0 leur hutte. C'est une petite pi\u00e8ce \u00e0 peine meubl\u00e9e. La fouille devrait \u00eatre rapide. Lucas commence par explorer la table de nuit de la jeune fille. Rien de sp\u00e9cial. Flairtout renifle le lit et demande \u00e0 Lucas de regarder sous l'oreiller. Lucas, qui continue \u00e0 se prendre pour le h\u00e9ros d'un film, soul\u00e8ve l'oreiller d'un air inspir\u00e9. \u00d4 miracle, il y trouve un cahier intitul\u00e9 Mon safari en Afrique. Lucas reconna\u00eet aussit\u00f4t l'\u00e9criture de Manon. Il sait qu'il n'est pas cens\u00e9 lire son journal intime, mais dans l'urgence de la situation, il d\u00e9cide de mettre ses scrupules de c\u00f4t\u00e9.",
+        "falc": "\u00ab Montrez-moi sa chambre. \u00bb Lucas et Flairtout cherchent des indices. Flairtout renifle le lit de Manon. \u00ab Lucas, regarde sous le coussin ! \u00bb Lucas soul\u00e8ve le coussin. Il trouve un cahier. Lucas lit: Mon safari en Afrique. \u00ab Manon raconte son histoire dans ce cahier. Je vais s\u00fbrement trouver des indices. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Flairtout dit : *\u00ab On cherche Lila ensemble ! \u00bb*\nIls vont chez les parents de Manon.\nDans leur petite maison simple, ils fouillent.\n\nLucas ouvre le cahier de Manon sous son oreiller.\n\u00ab Oh ! \u00bb Il lit : *\u00ab Mon safari en Afrique\u2026 \u00bb*\nC\u2019est \u00e9crit comme \u00e0 elle. Lucas ne peut pas r\u00e9sister.\nIl lit tout, m\u00eame si c\u2019est un secret."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Flairtout dit : *\u00ab On cherche Lila ensemble ! \u00bb* Ils arrivent \u00e0 la hutte de Manon.\n\nDans sa chambre, Lucas regarde tout d\u2019abord la table de nuit. Rien ne semble bizarre.\nPuis Flairtout sent quelque chose\u2026 Il demande :\n*\u00ab Regarde sous l\u2019oreiller ! \u00bb*\nLucas soul\u00e8ve doucement l\u2019oreiller. *\u00ab Oh ! \u00bb* Il trouve un cahier avec \u00e9crit : **\u00ab Mon safari en Afrique \u00bb**. C\u2019est bien l\u2019\u00e9criture de Manon !\nLucas lit vite, malgr\u00e9 qu\u2019il sache ne pas toucher \u00e0 son journal.\n*\u00ab Qui aurait cru que Lila \u00e9tait ici ?!* \u00bb\n\n*(Dans la t\u00eate de Lucas, il est tr\u00e8s excit\u00e9 et un peu nerveux.)*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Flairtout dit : \u00ab Regardons sa chambre ! \u00bb Ils vont chez la famille de Manon. C\u2019est une petite pi\u00e8ce tr\u00e8s simple. Sous l\u2019oreiller, ils trouvent un gros cahier rouge.\n\n\u00ab Ahhh ! L\u2019\u00e9criture est celle de Manon ! \u00bb Lucas regarde vite dedans. Il voit des dessins et des mots qu\u2019il conna\u00eet bien.\nC\u2019est son journal secret. Mais il ne veut pas se tromper, alors il lit juste un peu."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "L\u00e9a et sa famille cherchent Lila.\n\u00ab On fouille la chambre ! \u00bb\nLucas trouve un petit cahier. C\u2019est le livre pr\u00e9f\u00e9r\u00e9 de Manon : *\"Mon safari en Afrique\"*. Il \u00e9crit comme elle.\nFlairtout dit : \u00ab \u00c7a doit \u00eatre l\u00e0 ! \u00bb"
+            }
+        ]
+    },
+    {
+        "sentence_id": 8,
+        "original_text": "Lucas enl\u00e8ve ses chaussures et se couche sur le lit de son amie. Il entame la lecture du journal en esp\u00e9rant qu'il y trouvera des indices. MON SAFARI EN AFRIQUE Lundi Notre avion atterrit \u00e0 Nairobi. Me voil\u00e0 en Afrique pour la premi\u00e8re fois de ma vie ! C'est trop cool ! Une jeep nous attend \u00e0 l'a\u00e9roport. Nous faisons connaissance avec L\u00e9o, notre guide, qui va nous conduire \u00e0 notre village, Kasa. Il nous dit bonjour en swahili, mais heureusement, il parle aussi fran\u00e7ais. Nous prenons la route.",
+        "falc": "Lucas se couche sur le lit de Manon. Il commence \u00e0 lire l'histoire. \u00ab Lundi : L'avion atterrit. Ouah ! Je suis en Afrique. Nous montons dans la voiture de L\u00e9o, notre guide. En route pour le village de Kasa ! \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas enl\u00e8ve ses chaussures et s\u2019allonge sur le lit. Il ouvre son journal : *\u00ab MON SAFARI EN AFRIQUE \u00bb*\n\u00ab **En Afrique pour la premi\u00e8re fois !** Trop excitant ! \u00bb\nUne jeep attend \u00e0 l\u2019a\u00e9roport. L\u00e9o, leur guide, les aide.\nIl parle swahili\u2026 mais aussi fran\u00e7ais. Ils partent ensemble vers le village Kasa."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas sort ses chaussures. Il s\u2019allonge sur le lit d\u2019une amie. Il ouvre son journal pour chercher des indices. *\"Lundi : On arrive \u00e0 Nairobi ! C\u2019est mon premier voyage en Afrique ! L\u2019avion atterrit \u00e0 l\u2019a\u00e9roport. Une voiture nous attend. L\u00e9o, notre guide, parle fran\u00e7ais et swahili. Ils nous emm\u00e8nent au village Kasa.\"*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas enl\u00e8ve ses chaussures. Lucas se met sur le lit pour lire.\n\n\u00ab **Premier voyage en Afrique !** Lundi, l'avion va atterrir \u00e0 Nairobi.\nC'est super excitant !\nUne jeep attend. C\u2019est L\u00e9o, notre guide. Il parle swahili et fran\u00e7ais.\nIls vont nous emmener dans un village nomm\u00e9 Kasa. \u00bb"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Lucas pose ses chaussures et s\u2019allonge sur le lit d\u2019un copain. Il ouvre un journal pour trouver des id\u00e9es.\n\n\u00ab En Afrique pour la premi\u00e8re fois ! Voici mon premier voyage. Super ! \u00bb"
+            }
+        ]
+    },
+    {
+        "sentence_id": 9,
+        "original_text": "En chemin, nous d\u00e9couvrons la campagne africaine, bien plus contrast\u00e9e que ce que je pensais. Je m'\u00e9tais imagin\u00e9 des grandes \u00e9tendues remplies de broussailles, or je d\u00e9couvre aussi des collines et beaucoup de verdure. Dans les champs, il y a de nombreux arbres fruitiers. Je suis frapp\u00e9e par la pauvret\u00e9 des villages. Les enfants jouent au foot avec des bo\u00eetes de conserve caboss\u00e9es et font rouler des vieux pneus de voiture avec des b\u00e2tons. Ils s'amusent bien plus qu'avec des consoles de jeux vid\u00e9o. Nous croisons des femmes qui reviennent du puits, bien droites malgr\u00e9 leur cruche sur la t\u00eate, et des personnes juch\u00e9es \u00e0 trois ou quatre sur des mobylettes. Et bien s\u00fbr, sans casques! M\u00eame si nous ne voyons pas d'autres animaux que des poules et des dindons sur la route, je me sens d\u00e9j\u00e0 d\u00e9pays\u00e9e. Je suis ravie de voyager en Afrique.",
+        "falc": "\u00ab C'est dr\u00f4le, ici ! Les mamans ont des pots d'eau sur la t\u00eate. Les enfants jouent au foot avec des bo\u00eetes caboss\u00e9es. Les poules marchent sur la route. J'aime bien l'Afrique. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Nous arrivons dans un pays tr\u00e8s diff\u00e9rent. Il y a des collines, beaucoup d\u2019arbres verts et des champs avec des fruits.\n\nLes villages sont pauvres : les enfants jouent au foot avec des vieux jouets (bo\u00eetes cass\u00e9es ou pneus). Les femmes marchent avec une cruche sur la t\u00eate. Beaucoup de gens voyagent sans casques en moto.\n\nJe me sens surprise et heureuse d\u2019\u00eatre l\u00e0-bas. C\u2019est nouveau et plein de couleurs !"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "En voyage, on voit une campagne diff\u00e9rente.\nDes collines, beaucoup de verdure et des arbres fruitiers.\nOn voit des villages pauvres.\n\nLes enfants jouent avec :\ndes bo\u00eetes cass\u00e9es,\ndes vieux pneus roul\u00e9s \u00e0 la main.\n\nElles reviennent du puits avec une cruche sur la t\u00eate.\nCertains montent trois personnes sur leur v\u00e9lo sans casque.\n\nM\u00eame pas d'animaux, seulement poules et dindons.\nOn s'amuse bien ici !\n\nJe me sens heureuse de voyager."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "En chemin, on voit des paysages magnifiques : des collines, beaucoup de fleurs, et des arbres avec des fruits. Malgr\u00e9 \u00e7a, il y a tr\u00e8s peu d\u2019argent dans les villages.\nLes enfants jouent avec des bo\u00eetes rouill\u00e9es ou des vieux pneus, **tr\u00e8s joyeux**, alors qu\u2019ils devraient jouer avec des jouets propres.\nDes femmes portent des cruches sur la t\u00eate et marchent jusqu\u2019au puits. Beaucoup de gens voyagent en moto sans protection, comme des papillons sur du vent chaud.\n\nJe me sens diff\u00e9rente ici : **c\u2019est dr\u00f4le et puissant**. Je ressens une grande joie de voir ces paysages et cette vie si color\u00e9e.\nC\u2019est \u00e9trange et beau \u00e0 la fois \u2013 je suis \u00e9merveill\u00e9e par ce nouveau monde."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Je vois une campagne tr\u00e8s diff\u00e9rente de ce que j'avais imagin\u00e9.\nIl y a des collines vertes et plein d'arbres fruitiers.\n\nDes enfants jouent avec des vieux jouets : bo\u00eetes de conserve et pneus.\nIls sont heureux \u00e0 jouer ainsi.\n\nLes femmes portent des cruches en t\u00eate. Elles marchent bien malgr\u00e9 tout \u00e7a !\n\nDe jeunes gens montent sur des v\u00e9los sans protection. \u00c7a ressemble aux mobylettes.\n\nNous voyons peu d\u2019animaux. Seulement des poules.\nJ\u2019aime ce paysage et cette fa\u00e7on de vivre ici.\nC\u2019est d\u00e9paysant, mais j\u2019adore d\u00e9couvrir !"
+            }
+        ]
+    },
+    {
+        "sentence_id": 10,
+        "original_text": "Nous atteignons le village au cr\u00e9puscule. Il est encore plus petit que ce que je pensais. L'accueil des habitants est tr\u00e8s chaleureux. Ils nous ont m\u00eame pr\u00e9par\u00e9 un d\u00eener : du riz jaune et du poisson grill\u00e9. Je mange avec les jeunes. On ne parle pas la m\u00eame langue, mais on rigole quand m\u00eame, surtout quand je deviens toute rouge apr\u00e8s avoir confondu un piment avec un bout de tomate. Au moment du dessert, mes parents viennent me rappeler \u00e0 l'ordre : je dois aller me coucher, car nous allons nous lever t\u00f4t demain pour notre premi\u00e8re journ\u00e9e de safari-photo. Notre hutte est sommaire mais charmante. Je crois voir une araign\u00e9e \u00e0 c\u00f4t\u00e9 de mon lit. Je m'en approche. Maman se pr\u00e9cipite sur moi en me criant de me reculer : c'est un scorpion, mamma mia, je l'ai \u00e9chapp\u00e9 belle ! Je suis fatigu\u00e9e par toutes ces \u00e9motions. Je pense que je vais dormir comme un b\u00e9b\u00e9.",
+        "falc": "\u00ab Il fait nuit. Ouf ! Nous arrivons au village. Les gens du village sont tr\u00e8s sympas. Ils ont pr\u00e9par\u00e9 du riz et du poisson. Je mange avec les jeunes. Nous rigolons bien tous ensemble. Maman arrive. \u00bb \u00ab Au lit, Manon ! On se l\u00e8ve t\u00f4t demain. Nous allons voir les animaux de la savane. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Au coucher du soleil, on arrive dans un petit village. Les gens sont tr\u00e8s gentils. Ils nous ont pr\u00e9par\u00e9 un repas : riz jaune et poisson grill\u00e9. Je mange avec des enfants. On rit m\u00eame sans parler la m\u00eame langue.\n\nQuand vient le dessert, mes parents me disent : \u00ab Tu dois dormir vite. Demain, on part t\u00f4t pour une journ\u00e9e de safari-photo. \u00bb\n\nDans notre hutte simple mais joli, je vois quelque chose pr\u00e8s du lit. Maman me dit : *\u00ab C'est un scorpion ! \u00bb* Je suis surprise et un peu effray\u00e9e.\n\nJe suis tr\u00e8s fatigu\u00e9e. Peut-\u00eatre que je vais dormir sans rien faire."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Au coucher du soleil, on arrive dans un petit village tr\u00e8s doux.\nLes gens nous accueillent avec joie. Ils nous ont pr\u00e9par\u00e9 un repas : riz jaune et poisson grill\u00e9.\n\nJe mange avec des enfants. On rit, m\u00eame si on ne parle pas la m\u00eame langue. Je me fais rouge quand je confonds un piment avec une tomate.\n\nAvant le dessert, mes parents disent : \u00ab Tu dois dormir maintenant. Demain, on part t\u00f4t pour un safari photo. \u00bb\n\nNotre hutte est simple et mignonne. Je vois quelque chose pr\u00e8s de mon lit. Maman me dit vite : *\u00ab C\u2019est un scorpion ! \u00bb* Je suis tr\u00e8s surprise.\n\nJe suis fatigu\u00e9e, mais je ferai comme un b\u00e9b\u00e9 et dormirai profond\u00e9ment."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Nous arrivons au village au soir. Le village est tr\u00e8s petit, m\u00eame plus petit qu\u2019on ne le pensait.\n\nLes gens sont tr\u00e8s gentils. Ils nous ont pr\u00e9par\u00e9 un repas d\u00e9licieux : riz color\u00e9 et poisson grill\u00e9.\n\nJe mange avec les enfants. On rit beaucoup. Je me suis mis la bouche en feu quand j\u2019ai confondu un piment avec une tomate ! \ud83d\ude05\n\nApr\u00e8s, les parents viennent :\n*\u00ab Allez dormir vite, demain on part pour une journ\u00e9e sp\u00e9ciale. \u00bb*\n\nLa nuit est petite et mignonne dans notre cabane, mais il semble y avoir quelque chose pr\u00e8s de mon lit.\n\nMaman me fait reculer :\n*\u00ab C\u2019est un scorpion, tiens-toi loin ! \u00bb*\nOn a eu de la chance ! \ud83d\ude2c\nJe suis \u00e9puis\u00e9e par tout \u00e7a. Je vais dormir tr\u00e8s fort, comme un b\u00e9b\u00e9 endormi."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "On arrive au village quand le soleil dispara\u00eet. C\u2019est encore plus petit que pr\u00e9vu.\n\nLes gens sont tr\u00e8s gentils. Ils nous ont pr\u00e9par\u00e9 un repas : riz et poisson grill\u00e9, comme \u00e0 la maison.\nJe mange avec des enfants. On rit m\u00eame sans parler la m\u00eame langue.\nPuis, maman me dit : \u00ab Il est temps de dormir, petite fille. Demain on part t\u00f4t pour le safari. \u00bb\n\nDans notre petit h\u00f4tel confortable, je vois quelque chose qui fait peur. C\u2019est un scorpion !\nMaman m\u2019explique vite : \u00ab Ce n\u2019est pas une araign\u00e9e ! C\u2019est dangereux\u2026 \u00bb\nJe suis tr\u00e8s \u00e9mue et fatigu\u00e9e. Je vais fermer les yeux pour dormir tranquillement.\n\n*(La peur a disparu en voyant maman, mais le stress reste.)*"
+            }
+        ]
+    },
+    {
+        "sentence_id": 11,
+        "original_text": "Mardi Ma premi\u00e8re nuit se d\u00e9roule dans une ambiance de jungle. J'entends plein de bruits bizarres. Nous sommes r\u00e9veill\u00e9s vers cinq heures du matin par des barrissements d'\u00e9l\u00e9phants, ouah, quel boucan ! Mais curieusement j'ai moins de difficult\u00e9s \u00e0 me lever que lorsque je vais en classe. L\u00e9o, le guide, nous attend d\u00e9j\u00e0, car les animaux sont visibles t\u00f4t le matin. D\u00e8s dix heures, il fait trop chaud pour eux, et pour nous aussi d'ailleurs. Nous montons dans la jeep. En route pour l'aventure !",
+        "falc": "Lucas continue de lire l'histoire de Manon. \u00ab Mardi : Je suis r\u00e9veill\u00e9e par les cris des \u00e9l\u00e9phants. Je regarde ma montre. Il est 5 heures. Vite ! Vite ! Je me l\u00e8ve. L\u00e9o le guide attend d\u00e9j\u00e0. Nous montons dans la voiture. En route pour l'aventure ! \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Mardi matin, on part \u00e0 la jungle.\nDes animaux font des bruits forts : \u00ab Ouah ! \u00bb C\u2019est tr\u00e8s bruyant au r\u00e9veil.\nOn se l\u00e8ve facilement parce qu\u2019on voit les animaux t\u00f4t le matin.\nL\u00e9o nous attend d\u00e9j\u00e0. Il sait o\u00f9 sont les animaux.\n\n\u00c0 dix heures, il fait trop chaud pour eux et pour nous.\nOn monte dans la jeep. On part \u00e0 l\u2019aventure !"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Mardi matin : *\"Wow !* Une jungle bruyante ! Des \u00e9l\u00e9phants hurlent tr\u00e8s fort. Je me l\u00e8ve facilement. L\u00e9o est pr\u00eat \u00e0 voir les animaux t\u00f4t le matin. Tr\u00e8s chaud d\u00e8s dix heures, donc on part vite en jeep ! L\u2019aventure commence !\"*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "L\u00e9a fait une premi\u00e8re nuit dans un endroit myst\u00e9rieux.\nDes animaux font des bruits forts : des \u00e9l\u00e9phants en crient. *\u00ab Oh non ! Quel bruit ! \u00bb*\n\nLe guide, L\u00e9o, attend. *\u00ab On va voir les animaux tr\u00e8s t\u00f4t ce matin, car ils sont actifs \u00e0 l'aube ! \u00bb*\n\nOn part vite en jeep pour une aventure magique au petit matin.\n*\u00ab Et hop ! Vers le c\u0153ur de la nature\u2026 \u00bb*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "C'est une tr\u00e8s grande aventure aujourd\u2019hui !\n\nMoi aussi, je me r\u00e9veille vers cinq heures.\nJ\u2019entends des cris d\u2019\u00e9l\u00e9phants en criant \u00ab *Ouah !* \u00bb\nC\u2019est tr\u00e8s bruyant et fort\u2026 Comme une grosse musique en permanence !\nMais je me l\u00e8ve facilement parce que c\u2019est notre jour sp\u00e9cial.\n\nL\u00e9o est l\u00e0 d\u00e9j\u00e0. Il guide le groupe.\nC\u2019est \u00e0 cause des animaux : ils ont besoin de lumi\u00e8re t\u00f4t le matin.\n\u00c0 midi, il fait trop chaud pour eux.\n\nOn monte dans la jeep et on part !\n\n*Adventurous with a great excitement !* \ud83c\udf3f\ud83d\ude99\ud83d\udc18"
+            }
+        ]
+    },
+    {
+        "sentence_id": 12,
+        "original_text": "Apr\u00e8s une bonne heure de route cahoteuse, nous atteignons un lac dans lequel une maman \u00e9l\u00e9phant baigne son b\u00e9b\u00e9 \u00e9l\u00e9phanteau. Trop mignon ! Encore plus craquants, des babouins font les pitres dans les branches d'arbres au bord du lac. De temps en temps, l'un d'entre eux perd l'\u00e9quilibre et tombe dans l'eau. Je suis morte de rire. J'aurais tant aim\u00e9 partager ces beaux moments avec Lucas! Qu'est-ce qu'il me manque ! Lucas rougit, et s'empresse de continuer sa lecture.",
+        "falc": "\u00ab Nous arrivons au bord d'un lac. Une maman \u00e9l\u00e9phant lave son petit. Trop mignon ! Des singes jouent dans les arbres. Oh ! 2 singes tombent dans l'eau. Je suis morte de rire. Lucas me manque. Il aurait aim\u00e9 voir tous ces animaux. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "La route est pleine de bosses. On arrive pr\u00e8s d\u2019un grand lac. Une maman \u00e9l\u00e9phant baigne son b\u00e9b\u00e9 \u00e9l\u00e9phanteau. C\u2019est tr\u00e8s mignon !\n\nDes babouins font des grimaces dans les arbres. Parfois, ils tombent dans l\u2019eau ! Je ris fort.\n\nJe voudrais partager ces moments avec Lucas\u2026 Il est triste que je ne puisse pas \u00eatre l\u00e0 avec lui."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "On arrive \u00e0 un grand lac o\u00f9 une maman \u00e9l\u00e9phante joue avec son b\u00e9b\u00e9 \u00e9l\u00e9phanteau. Ils sont si doux !\n\nDes babouins font des grimaces dans les arbres pr\u00e8s du lac. Parfois, ils tombent dans l\u2019eau. Je ris tr\u00e8s fort !\nJe me dis : \u00ab J\u2019aimerais tant partager \u00e7a avec Lucas ! \u00bb\n\nLucas reste calme et continue de lire. Il est un peu g\u00ean\u00e9."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "La route \u00e9tait berc\u00e9e par des cailloux qui sautent. On arrive devant un lac.\nMaman \u00e9l\u00e9phant joue avec son petit dans l\u2019eau. Les petits babouins font des farces en haut des arbres. Parfois, ils tombent dans le lac ! Je ris comme une folle.\n\n*Pourquoi Lucas ne me regarde-t-il pas ?*\nIl rougit tout rouge et continue sa lecture tr\u00e8s vite.\n\u00ab Il me manque un c\u00e2lin chaud avec toi.\u00bb\nJe voudrais tout partager avec lui\u2026"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "En chemin, tout est un peu agit\u00e9. On arrive \u00e0 un grand lac.\nIci, une m\u00e8re \u00e9l\u00e9phante baigne son b\u00e9b\u00e9. Et des babouins font rigoler pr\u00e8s du lac. Ils sautent dans les branches\u2026 *Hic !* Un coup et *plouf* ! Tout le monde rit.\n\nJe me souviens de Lucas\u2026 Je veux qu\u2019on soit ensemble pour ce moment. Mais lui continue \u00e0 lire, rouge au visage : *\"Attends-moi !\"*"
+            }
+        ]
+    },
+    {
+        "sentence_id": 13,
+        "original_text": "Mercredi Premi\u00e8re rencontre du matin : un gu\u00e9pard perch\u00e9 sur une branche d'arbre. Devant mon air inquiet, le guide nous assure que nous sommes en s\u00e9curit\u00e9 dans la jeep. Soudain, l'animal saute de l'arbre et se met \u00e0 poursuivre un lapin. Je suis certaine que le pauvre lapin va se faire d\u00e9vorer, puisque le gu\u00e9pard est l'animal le plus rapide du monde. Eh bien non, le lapin arrive \u00e0 s'\u00e9chapper de justesse en se cachant sous un buisson. C'est une bonne nouvelle : il arrive donc aux plus faibles de gagner contre les plus forts. Je me dis que je dois me souvenir de cette sc\u00e8ne toute ma vie.",
+        "falc": "\u00ab Mercredi : Quels animaux allons-nous voir ce matin ? Ouah ! Un gu\u00e9pard perch\u00e9 sur un arbre. Le gu\u00e9pard saute et chasse un lapin. Ouf ! Le lapin se cache. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Le gu\u00e9pard court apr\u00e8s un lapin.\n\u00ab Ne t\u2019inqui\u00e8te pas, on est en s\u00e9curit\u00e9 ! \u00bb\nLe lapin s\u2019\u00e9chappe gr\u00e2ce \u00e0 un buisson.\nC\u2019est une belle victoire pour le petit animal !"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Le guide dit : *\u00ab On est en s\u00e9curit\u00e9 dans la voiture. \u00bb*\nUn gu\u00e9pard court apr\u00e8s un lapin.\nLe lapin se cache et s\u2019\u00e9chappe !\nC\u2019est rare, mais le plus petit gagne parfois contre le plus fort.\nJe reste impressionn\u00e9e par cette histoire."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "*Le gu\u00e9pard court apr\u00e8s un lapin.*\n\u00ab Ne t\u2019inqui\u00e8te pas, on est en s\u00e9curit\u00e9 \u00e0 l\u2019int\u00e9rieur ! \u00bb dit le guide.\n\nLe lapin se cache dans la terre. Il a gagn\u00e9 !\n\nC\u2019est une belle victoire pour lui. Elle me rappelle toujours : *les plus petits peuvent parfois gagner contre les plus forts.*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "Soudain, un gu\u00e9pard court apr\u00e8s un lapin.\n\u00ab On est tous en s\u00e9curit\u00e9 dans la voiture ! \u00bb\nLe gu\u00e9pard attrape le lapin ? Non !\nLe lapin s\u2019\u00e9chappe et se cache vite."
+            }
+        ]
+    },
+    {
+        "sentence_id": 14,
+        "original_text": "Nous croisons plusieurs girafes, qui sont encore plus grandes que ce que j'imaginais, et bien s\u00fbr des troupeaux de z\u00e8bres et de gazelles. Je d\u00e9couvre l'existence du grand koudou, une sorte d'antilope ray\u00e9e aux cornes torsad\u00e9e, un tr\u00e8s bel animal. Lorsque nous rencontrons des autruches, le guide nous propose de leur donner des morceaux de pain. Je tends la main courageusement, mais une autruche se pr\u00e9cipite sur mes cheveux et me vole ma barrette ! Comme cette sc\u00e8ne a l'air d'amuser tout le monde, je me joins \u00e0 la rigolade g\u00e9n\u00e9rale, alors que j'ai eu la peur de ma vie.",
+        "falc": "\u00ab Je d\u00e9couvre aussi des girafes, des z\u00e8bres et des gazelles. Des autruches s'approchent de la voiture. Je donne du pain \u00e0 une autruche. Mais l'autruche vole la barrette de mes cheveux. J'ai eu tr\u00e8s, tr\u00e8s peur. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "On voit des girafes tr\u00e8s grandes, des z\u00e8bres et des gazelles.\nUn guide dit : \u00ab Regardez ce koudou ! \u00bb C\u2019est une petite antilope avec des cornes enroul\u00e9es.\nLes autruches courent vers nous. Le guide rit : *\u00ab Donnez-leur du pain ! \u00bb*\nJe tends la main\u2026 **BOUM !** Une autruche me mordille la t\u00eate et me vole ma barrette !\nTout le monde rit, mais moi, j\u2019ai eu **une tr\u00e8s grande peur**."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "Les girafes sont tr\u00e8s grandes. On voit des z\u00e8bres et gazelles. Un koudou est beau, avec des taches et des cornes enroul\u00e9es.\n\nUne autruche court vers moi ! Elle attrape ma barrette dans sa grande bec ! Je cris au plus fort. Tout le monde rit autour de nous. M\u00eame si c\u2019\u00e9tait effrayant."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "On voit des girafes tr\u00e8s grandes et grosses.\nDes z\u00e8bres et des gazelles sont aussi l\u00e0.\nC\u2019est beau, avec leurs rayures color\u00e9es !\nUn guide rit : *\u00ab Donne-leur du pain ! \u00bb*\nJ\u2019ouvre mes mains\u2026 mais une autruche me mord le t\u00eate !\n\u00ab Oh ! Je ris tout seul m\u00eame si j\u2019ai peur. \u00bb"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "On voit des girafes tr\u00e8s grosses que je ne pensais pas \u00eatre si grandes.\nDes z\u00e8bres et des gazelles marchent aussi.\nLe guide parle du grand koudou, un animal mignon avec des rayures et des cornes tordues.\n\nUne autruche vient me piquer la barrette ! Mon c\u0153ur bat tr\u00e8s vite.\nTout le monde rit. M\u00eame moi maintenant."
+            }
+        ]
+    },
+    {
+        "sentence_id": 15,
+        "original_text": "Sur le chemin du retour, une mauvaise surprise nous attend : notre jeep passe pr\u00e8s de trois cadavres d'\u00e9l\u00e9phants. C'est affreux et \u00e7a sent mauvais! Le guide nous explique qu'ils ont \u00e9t\u00e9 tu\u00e9s par des braconniers, qui vendent tr\u00e8s cher l'ivoire de leurs d\u00e9fenses. J'avais entendu parler de braconnage, mais en voyant ce spectacle, je me dis que nous ne pouvons pas continuer \u00e0 jouer les touristes sans intervenir.",
+        "falc": "\u00ab Nous rentrons au village. Je vois 3 \u00e9l\u00e9phants morts au bord de la route. C'est horrible ! \u00bb \u00ab Les chasseurs tuent les \u00e9l\u00e9phants pour vendre leurs d\u00e9fenses. \u00bb",
+        "runs": [
+            {
+                "parameters": {
+                    "temperature": 0.3,
+                    "num_ctx": 12288
+                },
+                "summary": "Les trois \u00e9l\u00e9phants morts sont l\u00e0. Ils sentent mauvais. Les hommes qui ont tu\u00e9 ces animaux vendent leur ivoire cher.\n\n\u00ab C\u2019est tr\u00e8s triste et injuste. \u00bb On doit aider."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.5,
+                    "num_ctx": 12288
+                },
+                "summary": "On voit trois \u00e9l\u00e9phants morts. Ils sentent mauvais et sont tr\u00e8s triste. Les braconniers ont tu\u00e9 ces animaux pour vendre leur ivoire tr\u00e8s cher.\n\nCe n\u2019est pas juste. On doit aider ces animaux."
+            },
+            {
+                "parameters": {
+                    "temperature": 0.7,
+                    "num_ctx": 12288
+                },
+                "summary": "Je vois trois \u00e9l\u00e9phants morts. Ils ont \u00e9t\u00e9 tu\u00e9s par des braconniers. Leurs d\u00e9fenses sont vendues cher.\n\n*\u00ab \u00c7a ne peut pas rester comme \u00e7a ! \u00bb* Maintenant, je pense : *\u00ab Nous devons agir. \u00bb*"
+            },
+            {
+                "parameters": {
+                    "temperature": 0.9,
+                    "num_ctx": 12288
+                },
+                "summary": "L'\u00e9quipe s\u2019arr\u00eate. On voit trois \u00e9l\u00e9phants morts. Ils sont grands et triste. \u00c7a sent fort.\nLe guide dit : *\"Ces \u00e9l\u00e9phants ont \u00e9t\u00e9 tu\u00e9s par des braconniers. Ils vendent leur bois pour de l\u2019argent tr\u00e8s, tr\u00e8s riche.\"*\n\nMaintenant, personne ne sait *pourquoi* continuer en touriste sans aider.\nC\u2019est honteux et dangereux pour les animaux."
+            }
+        ]
+    }
+]

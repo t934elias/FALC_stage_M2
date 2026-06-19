@@ -1,0 +1,1322 @@
+TEST INFERENCE ZERO SHOT:
+_________________________
+
+# ollama
+
+### phi3:
+La cloche sonne. C'est maintenant qu'on finit l'année scolaire que tout élève attend avec impatience et nous voyons une rue pleine d’élèves franchir la grille du collège, éclatant des rires de joie. Lucas passe par la cour légèrement en marchant alors que ses amis lui saluent à voix haute pour souhaiter bonnes vacances et le signe avec leur main : "Bonne année!" 
+
+### ministral-3:
+La cloche sonne et cela marque fin de l'année pour tous les élèves. Des jeunes courez à travers le grillage du collège avec des cris joyeux. Lucas, d'un pas léger, passe devant ses amis qui lui lancent : "Salut ! Bonnes vacances!"
+
+ou
+À la fin de l’année, les élèves sont très heureux. Beaucoup d’enfants sortent du collège en courant. Ils crient et font des bruits joyeux.
+
+Lucas marche dans la cour. Ses amis lui disent :
+*« Salut ! Bonnes vacances ! »*
+Ils lui font des signes avec leurs mains pour le saluer.
+
+ou
+
+La cloche sonne.
+C’est la fin de l’année.
+Tous les élèves sont très heureux.
+
+Beaucoup de jeunes courent.
+Ils passent par la grille du collège.
+Ils crient et chantent.
+
+Lucas marche vite.
+Il va dans la cour.
+
+Ses amis lui disent :
+"Salut ! Bonnes vacances !"
+Ils lui font des signes de la main.
+
+
+ou
+**La cloche sonne.**
+C’est la fin de l’année.
+Tous les élèves sont très heureux.
+
+Une grande foule de jeunes enfants court.
+Ils passent par la grille du collège.
+Ils crient : *« Vive les vacances ! »*
+
+Lucas marche vite.
+Il dit à ses amis :
+*« Salut, bonnes vacances ! »*
+Ils lui font des signes de la main.
+Ils sont très joyeux.
+
+
+ou 
+La cloche sonne.
+C’est la fin de l’année.
+Tous les élèves sont très contents.
+
+Beaucoup de jeunes courent.
+Ils sortent du collège.
+Ils crient de joie.
+
+Lucas marche vite.
+Il passe dans la cour.
+
+Ses amis lui disent :
+"Salut, bonnes vacances !"
+Ils lui font des signes de la main.
+Ils lui font un gros sourire.
+
+
+
+-----------------------
+
+------------ PROMPT ENVOYE AU MODELE ---------------
+### Input: Transforme le texte suivant en FALC.
+
+Texte :
+Le patient présente une symptomatologie complexe nécessitant une prise en charge adaptée.
+
+Réécriture : ### Output:    
+
+----------------- SORTIE MODELE ------------------
+Le patient présente une symétriocope complexe requérant une prise en charge adaptée.
+
+
+
+
+
+
+
+
+
+TEST FEW SHOTS:
+_______________
+
+
+
+# ollama
+
+### ministral-3:3b
+**La cloche sonne.**
+C’est la fin de l’année.
+Les élèves sont très heureux.
+
+**Beaucoup d’élèves courent.**
+Ils passent par la grille du collège.
+Ils crient : *"On est contents !"*
+
+**Lucas arrive.**
+Il marche vite.
+Il dit à ses amis :
+*"Salut, bonnes vacances !"*
+Ils lui font des signes avec la main.
+Ils sont joyeux.
+
+
+ou
+**La cloche sonne.**
+C’est la fin de l’année, très importante pour tous les élèves.
+
+**Beaucoup d’élèves courent** :
+Ils sortent du collège.
+Ils crient : *"On y va !"*
+Ils sont très joyeux.
+
+**Lucas arrive en courant.**
+Il dit à ses amis :
+*"Salut ! Bonnes vacances !"*
+
+Ses amis lui font des signes.
+Ils lui disent : *"À bientôt !"*
+
+ouLa cloche sonne.
+C’est l’été. Tous les élèves sont heureux.
+Des enfants courent vers le collège.
+Ils crient : "Bonnes vacances !"
+
+Lucas marche vite.
+Ses amis lui font des signes.
+Ils disent : "Salut !"
+
+
+ou 
+**La cloche sonne.**
+C’est l’été ! Tous les élèves sont contents.
+Des enfants courent joyeux vers la sortie.
+Lucas marche vite.
+Ses amis lui crient : *"Salut, bonnes vacances !"* en lui faisant des signes.
+
+*(Fin de l’activité scolaire.)*
+
+
+
+
+
+(3eme prompt)
+-------------- TEXTE ENTREE --------------- 
+Le patient présente une symptomatologie complexe nécessitant une prise en charge adaptée.
+
+------------------ SORTIE MODELE ---------------
+Le patient souffre d'une situation complexe qui nécessitera une approche adaptative.
+
+
+
+
+(1er prompt)
+-------------- TEXTE ENTREE ---------------
+Un instant, le fantôme de Canterville demeura parfaitement immobile. Puis il lança le flacon sur le parquet et s'enfuit le long du couloir en poussant des gémissements.
+
+------------------ SORTIE MODELE ---------------
+Je ne comprends pas ce que tu as écrit ici. Il y a trop d'éléments qui ne correspondent pas aux règles FALC. Tous ces éléments sont trop nombreux pour une seule phrase.
+
+Pourquoi ? Parce qu’il n’y a aucun mot similaire au premier terme « canterville » ou à son pronom « vous ». En outre, nous avons déjà vu que le deuxième terme « fantôme » est inférieur à deux lettres. Nous devrons donc ajouter un nouveau mot, le troisième terme « Canterville », qui sera exactement le même longueur que celui-ci mais plus léger et moins important. Et voilà notre réponse.
+
+
+
+
+
+
+
+
+
+
+
+NO SHOT AVEC EMOTIONS:
+______________________
+
+# mistral:
+
+**La cloche sonne !**
+*C’est la fin de l’année, si belle et si attendue par tous les élèves !*
+
+**La joie explose !**
+Une foule d’ados, pleins de bonheur, saute de joie en franchissant la grille du collège.
+*Ils courent, ils ricanent, ils hurlent de plaisir !*
+
+**Lucas arrive en courant, léger comme une plume.**
+*"Salut, vous êtes en vacances !"* hurle
+
+
+ou 
+
+**La cloche sonne !** 🔔
+**Fin de l’année !** 🎉
+Tous les élèves sont **très heureux** !
+
+Des jeunes **cordeaux** (des enfants) courent **très vite** en criant :
+**"HURRA !"** 🎊
+Ils sortent du collège avec **beaucoup de joie**.
+
+Lucas arrive **légèrement** en riant.
+**"Salut, bonnes vacances !"** 😊
+
+
+ou 
+**La cloche sonne !**
+C’est la fin de l’année, **très attendue** par tous les élèves.
+
+Des jeunes courent **très vite** vers le collège.
+Ils hurlent de **joie** en passant !
+
+Lucas arrive **léger de pas**, joyeux.
+Ses amis lui crient :
+*« Salut, bonnes vacances ! »*
+Ils lui font des **signes de la main** pour lui dire au revoir. 😊
+
+
+
+
+ou 
+**Jules est très heureux !**
+
+Sa mère a préparé un pique-nique.
+Son père a fait les vélos.
+Ils partent ensemble !
+
+Et devinez quoi ?
+Bou est dans le panier de maman.
+Il a les babines qui tremblent de joie !
+
+C’est une **superbe** journée.
+Ils roulent, mangent, et râlent ensemble.
+Papa, maman, Bou et Jules sont très contents !
+C’est leur **meilleure
+
+
+
+ou
+**Super jour pour Jules !**
+
+Le père de Jules a fait les vélos.
+Sa mère a préparé un pique-nique.
+Ils sont partis ensemble.
+
+**Bou !** Dans le panier de vélo de maman !
+Il rit, les babines en l’air.
+C’est *très* drôle !
+
+**La meilleure promenade de Jules !**
+Une journée *parfaite* avec sa famille :
+papa, maman, Bou… et Jules ! 😊
+
+
+ou
+**Jules est très heureux !**
+
+Sa mère a préparé un pique-nique.
+Son père a fait les vélos.
+Ils partent tous ensemble !
+
+**Bou est dans le panier à vélo de maman !**
+Il a l’air joyeux, avec ses babines qui bougent.
+C’est très amusant !
+
+**C’est la meilleure journée de sa vie !**
+Ils sont tous ensemble : papa, maman, Bou et Jules.
+C’est une grande joie 
+
+
+**Jules est très heureux !**
+Sa journée est parfaite !
+
+Son père a fait les vélos.
+Sa mère a préparé un pique-nique.
+Ils sont partis ensemble.
+
+**Bou est dans le panier à vélo de maman !**
+Il rit et fait des petits sourires.
+C’est très drôle !
+
+C’est la meilleure promenade de Jules.
+Ils passent une **très belle journée en famille** :
+papa, maman, Bou et Jules ! 😊
+
+
+
+ou
+Jules est très heureux ! Aujourd’hui est un super jour pour lui.
+Son père a préparé les vélos.
+Sa mère a fait un pique-nique.
+Ils partent tous ensemble !
+
+Et devinez quoi ? Bou est dans le panier à vélo de maman !
+Il est rigolo, avec ses babines qui bougent.
+C’est la plus belle promenade de sa vie !
+
+Ils passent une journée très joyeuse en famille : papa, maman, Bou et Jules.
+
+
+
+avec dictionnaire:
+# AFIN
+**Version FALC (émotion : joie et bonheur familial)**
+
+Jules est très heureux aujourd’hui ! C’est l’un des meilleurs jours de sa vie.
+
+Son père a préparé deux vélos, et sa mère a fait un pique-nique. Tout le monde est parti ensemble.
+
+En regardant, Jules voit Bou dans le panier à vélo de maman. Bou a l’air très content, avec ses babines qui bougent un peu. C’est drôle et amusant
+
+# NRC
+**Texte en FALC avec émotion joyeuse et familiale :**
+
+*"Aujourd’hui, Jules a un grand bonheur :
+- Il a un beau soleil et un beau temps.
+- Sa famille est très heureuse : papa, maman, Bou et lui.
+- Papa a préparé des vélos.
+- Maman a fait un pique-nique.
+
+Ils partent tous ensemble pour une grande promenade.
+Regardez ! Bou est dans le panier à vélo de maman.
+Il
+
+
+ou 
+Voici la version simplifiée :
+
+*"C’est un super jour pour Jules !*
+*Sa famille est partie en vacances ensemble : papa a préparé les vélos, maman a fait un pique-nique, et tout le monde est parti ensemble.*
+
+*Bou, le petit chien, est dans le panier à vélo de maman !*
+*Il a l’air content et joyeux avec ses babines qui pendent.*
+
+*C’est la plus belle journée que Jules ait jamais passée
+
+ou
+Jules est très heureux aujourd’hui. Sa famille a organisé une belle journée spéciale.
+
+Le père de Jules a préparé des vélos et la mère a préparé un pique-nique. Tous sont partis ensemble.
+
+Bou est dans le panier à vélo de maman. Il semble joyeux, avec ses babines au vent. C’est très amusant !
+
+C’est leur meilleure promenade jusqu’à présent. Ils ont passé une journée très agréable en famille : papa, maman,
+
+
+.sans emotions:
+**C'est un très beau jour pour Jules !**
+Son papa a préparé les vélos.
+Sa maman a fait un pique-nique.
+
+Ils partent tous ensemble.
+**Bou est dans le panier de maman.**
+Il rit avec le vent dans la bouche.
+
+C’est la plus belle journée de Jules !
+**Ils jouent ensemble : papa, maman, Bou et Jules.**
+C’est une journée en famille, joyeuse et pleine de bonheur.
+
+.avec emotion, nrc et few shot (pas de mariia):
+C’est un moment très joyeux et plein de bonheur pour Jules. Aujourd’hui est spécial parce que sa famille est ensemble et qu’ils font une belle activité.
+
+Sa mère a préparé un pique-nique, et son père a sorti les vélos. Ils sont tous partis en famille pour une promenade. Jules adore quand il peut faire des activités avec ses parents et son petit frère Bou.
+
+Il est très content parce que Bou est dans le panier à vélo de maman. Bou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#____________________________EVALUATION______________________________#
+
+
+src = ["C'est un des plus beaux jours de sa vie ! D'autant plus que maintenant, le père de Jules a préparé les vélos et sa mère le pique-nique. Ils sont tous partis. Et devinez où est Bou… dans le panier à vélo de maman ! Il est amusant avec ses babines au vent. C'est la meilleure promenade que Jules a faite. Ils ont passé une très bonne journée tous ensemble, en famille, papa, maman, Bou et Jules !"]
+ref = [["\" Allez, à vélo tout le monde ! En route pour une belle balade ! \" Jules et Bou sont heureux. Jules a un nouvel ami. Et Bou a trouvé une famille. Papa et maman ont le temps de jouer avec Jules et Bou."]]
+pred = ["Jules est très heureux aujourd’hui. Sa famille a organisé une belle journée spéciale.Le père de Jules a préparé des vélos et la mère a préparé un pique-nique. Tous sont partis ensemble.Bou est dans le panier à vélo de maman. Il semble joyeux, avec ses babines au vent. C’est très amusant !C’est leur meilleure promenade jusqu’à présent. Ils ont passé une journée très agréable en famille : papa, maman,"]
+
+BLEU Score: 0.0000
+ROUGE-L: 0.1746
+SARI Score: 38.1263
+Bert Score: ({'precision': [0.6833981871604919], 'recall': [0.7362916469573975], 'f1': [0.7088595628738403], 'hashcode': 'bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.51.3)'},)
+
+BLEU Score: 2.2229
+ROUGE-L: 17.4603
+SARI Score: 38.1263
+
+BERTScore:
+Precision: 68.3398
+Recall:    73.6292
+F1:        70.8860
+
+Readability:
+flesch reading ease: 77.6900
+LIX:                 33.0000
+Compression Ratio:   2.7027
+
+Novelty:
+Novelty Score: 34.4828
+
+Combined Metric:
+SRB Score: 30.7350
+
+Number of Samples: 1
+
+
+Texte original :
+joy: 0.9972
+surprise: 0.0010
+neutral: 0.0009
+sad: 0.0004
+anger: 0.0002
+fear: 0.0002
+
+Texte FALC :
+joy: 0.9974
+surprise: 0.0010
+neutral: 0.0006
+sad: 0.0005
+anger: 0.0003
+fear: 0.0002
+
+Texte ref :
+joy: 0.9921
+neutral: 0.0052
+surprise: 0.0012
+sad: 0.0010
+anger: 0.0003
+fear: 0.0002
+
+Distance euclidienne entre text ori et falc predit
+joy: 0.0002
+surprise: 0.0000
+neutral: 0.0003
+sad: 0.0001
+anger: 0.0001
+fear: 0.0000
+0.00035434047706215445
+
+Distance euclidienne entre text ori et falc ref
+joy: 0.0053
+surprise: 0.0002
+neutral: 0.0046
+sad: 0.0005
+anger: 0.0000
+fear: 0.0000
+0.007051830536065241
+
+Distance euclidienne entre falc pred et falc ref
+joy: 0.0052
+surprise: 0.0002
+neutral: 0.0043
+sad: 0.0006
+anger: 0.0001
+fear: 0.0000
+0.00674449783612917
+
+
+
+
+
+
+
+
+
+
+
+few shot sans dict: (ministral-3)
+___________________
+@ data[1]
+Texte original : 
+En arrivant chez lui, Lucas jette son cartable dans l'entrée. Après avoir dévoré trois pains au lait et une tablette de chocolat, il s'allonge sur le canapé avec sa console de jeux. Ouf, repos! Son téléphone portable sonne, ce doit être sa maman qui veut savoir comment s'est passé le dernier jour de classe. Oh, pense Lucas, elle pourrait attendre ce soir. Allez, je vais être sympa, je réponds quand même. Il pose sa console et s'empare du téléphone. Le prénom qui s'affiche sur l'écran le surprend : Manon. Lucas répond vite. Il entend son amie hurler: « Au secours, Lucas! J'ai besoin de toi ! ». Médusé, il bafouille : « Manon ! Tu es où ? ». Pas de réponse. Un silence de mort. Le jeune homme reste bouche bée. Comment peut-il aider Manon, censée se trouver à des milliers de kilomètres de là ?
+
+FALC predit : 
+**Lucas tombe sur le téléphone.** Il voit « Manon ». « Au secours ! » hurle Manon. Lucas panique. « Manon ? Où es-tu ? » Il ne sait pas. Un silence très long. Lucas est très triste et très surpris. Il ne comprend pas.
+
+FALC ref : 
+Lucas rentre dans sa maison. Il goûte. Soudain, le téléphone de Lucas sonne. C'est Manon : « Au secours, au secours! » « Je dois vite aller aider Manon. Elle est en danger. » Lucas a peur pour Manon.
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 6.4195
+ROUGE-L: 27.5000
+SARI Score: 45.1781
+
+BERTScore:
+Precision: 74.0157
+Recall:    75.0618
+F1:        74.5351
+
+Readability:
+flesch reading ease: 90.0070
+LIX:                 18.6829
+Compression Ratio:   73.1884
+
+Novelty:
+Novelty Score: 61.5385
+
+Combined Metric:
+SRB Score: 41.7161
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+sad: 0.7983
+anger: 0.0971
+surprise: 0.0591
+fear: 0.0264
+neutral: 0.0151
+joy: 0.0041
+
+Texte FALC :
+sad: 0.7055
+fear: 0.1117
+surprise: 0.0968
+anger: 0.0706
+neutral: 0.0090
+joy: 0.0064
+
+Texte ref :
+fear: 0.6700
+surprise: 0.1829
+anger: 0.0676
+sad: 0.0522
+neutral: 0.0216
+joy: 0.0058
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0928
+anger: 0.0265
+surprise: 0.0377
+fear: 0.0853
+neutral: 0.0061
+joy: 0.0023
+0.1343823352698684
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.7461
+anger: 0.0295
+surprise: 0.1238
+fear: 0.6436
+neutral: 0.0065
+joy: 0.0018
+0.993587769351165
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.6533
+fear: 0.5583
+surprise: 0.0861
+anger: 0.0030
+neutral: 0.0125
+joy: 0.0006
+0.8637753901887304
+
+
+
+
+@data[2]
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas serre les poings. « Flairtout ! Manon est en danger ! » Lucas pleure. « On va aller en Afrique avec lui. » Lucas court. « Je vais appeler mes parents. » Lucas ment. « Je dors chez un copain. » Flairtout rit. Ils partent.
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 2.9172
+ROUGE-L: 12.0482
+SARI Score: 36.8366
+
+BERTScore:
+Precision: 73.0805
+Recall:    69.7942
+F1:        71.3996
+
+Readability:
+flesch reading ease: 88.8742
+LIX:                 19.4359
+Compression Ratio:   80.2198
+
+Novelty:
+Novelty Score: 52.9412
+
+Combined Metric:
+SRB Score: 24.1638
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+sad: 0.7228
+anger: 0.2712
+fear: 0.0024
+neutral: 0.0016
+surprise: 0.0011
+joy: 0.0009
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.4600
+sad: 0.5060
+fear: 0.1952
+joy: 0.0673
+anger: 0.2268
+neutral: 0.0103
+0.7495361985981206
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596533
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.7200
+anger: 0.2703
+fear: 0.0018
+neutral: 0.3564
+surprise: 0.0234
+joy: 0.6087
+1.0438515435138012
+
+@data[2] (new prompt)
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas serre les poings. Flairtout dit : *« Manon est en danger ! »*
+Léger, Lucas court vers Flairtout. *« On va l’aider ! »*
+Mais Lucas pleure. *« Non, pas Manon ! Je ne veux pas ! »*
+
+Lucas envoie un message à ses parents :
+*« C’est Lucas, je dors chez un copain. Bisous ! »*
+Il ment, mais il ne veut pas dire la vérité.
+
+Flairtout sourit
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 0.8956
+ROUGE-L: 11.4286
+SARI Score: 34.5759
+
+BERTScore:
+Precision: 69.4354
+Recall:    71.3947
+F1:        70.4014
+
+Readability:
+flesch reading ease: 87.6405
+LIX:                 14.2365
+Compression Ratio:   65.3846
+
+Novelty:
+Novelty Score: 59.0909
+
+Combined Metric:
+SRB Score: 22.9663
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+sad: 0.8323
+anger: 0.0853
+neutral: 0.0657
+surprise: 0.0061
+joy: 0.0054
+fear: 0.0051
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.4549
+sad: 0.6154
+fear: 0.1925
+joy: 0.0628
+anger: 0.0409
+neutral: 0.0538
+0.7945454463567274
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596532
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.8295
+anger: 0.0844
+neutral: 0.2923
+surprise: 0.0183
+joy: 0.6042
+fear: 0.0009
+1.0705431598121384
+
+
+
+@data[3]
+Texte original : 
+Après quelques heures de vol, Luna atterrit dans la savane. Flairtout et Lucas descendent de la soucoupe. Il fait très chaud et humide. Nos amis se dirigent à pied vers le village, qu'ils aperçoivent au loin. Le jeune homme est frappé par la beauté du paysage qui l'entoure : à perte de vue, des palmiers et des bananiers, sous un magnifique coucher de soleil. Il reconnaît aussi des champs d'ananas.
+
+FALC predit : 
+Luna et Lucas sortent de la soucoupe. Il fait très chaud et humide. Ils marchent vers le village. Le paysage est magnifique : des palmiers et bananiers partout. Un coucher de soleil rouge et doré. Lucas voit des champs d'ananas.
+
+FALC ref : 
+« Nous sommes arrivés. » Luna atterrit dans la savane. Lucas et Flairtout sortent de la soucoupe. Ils marchent vers le village. Il fait chaud.
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 24.4692
+ROUGE-L: 33.8462
+SARI Score: 51.3574
+
+BERTScore:
+Precision: 74.6994
+Recall:    77.8954
+F1:        76.2639
+
+Readability:
+flesch reading ease: 78.7606
+LIX:                 32.1410
+Compression Ratio:   43.4783
+
+Novelty:
+Novelty Score: 30.0000
+
+Combined Metric:
+SRB Score: 48.2865
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+joy: 0.8296
+neutral: 0.1168
+surprise: 0.0477
+fear: 0.0039
+sad: 0.0015
+anger: 0.0005
+
+Texte FALC :
+neutral: 0.7034
+joy: 0.2824
+sad: 0.0064
+surprise: 0.0054
+fear: 0.0017
+anger: 0.0007
+
+Texte ref :
+neutral: 0.8262
+joy: 0.1519
+surprise: 0.0096
+sad: 0.0070
+fear: 0.0039
+anger: 0.0013
+
+Distance euclidienne entre text ori et falc predit
+joy: 0.5473
+neutral: 0.5867
+surprise: 0.0423
+fear: 0.0022
+sad: 0.0050
+anger: 0.0002
+0.8034250032826104
+
+Distance euclidienne entre text ori et falc ref
+joy: 0.6777
+neutral: 0.7094
+surprise: 0.0381
+fear: 0.0000
+sad: 0.0056
+anger: 0.0008
+0.9818441178441533
+
+Distance euclidienne entre falc pred et falc ref
+neutral: 0.1227
+joy: 0.1305
+sad: 0.0006
+surprise: 0.0042
+fear: 0.0023
+anger: 0.0006
+0.17917649423516388
+
+
+@data[3] (new prompt)
+Texte original : 
+Après quelques heures de vol, Luna atterrit dans la savane. Flairtout et Lucas descendent de la soucoupe. Il fait très chaud et humide. Nos amis se dirigent à pied vers le village, qu'ils aperçoivent au loin. Le jeune homme est frappé par la beauté du paysage qui l'entoure : à perte de vue, des palmiers et des bananiers, sous un magnifique coucher de soleil. Il reconnaît aussi des champs d'ananas.
+
+FALC predit : 
+Luna et ses amis arrivent dans un endroit chaud et humide. Ils voient un village loin. Le paysage est magnifique : beaucoup de plantes vertes, des palmiers et des bananiers. Un soleil rougeoyant brille au-dessus. Lucas adore voir cette belle nature.
+
+FALC ref : 
+« Nous sommes arrivés. » Luna atterrit dans la savane. Lucas et Flairtout sortent de la soucoupe. Ils marchent vers le village. Il fait chaud.
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 2.9518
+ROUGE-L: 15.3846
+SARI Score: 33.8578
+
+BERTScore:
+Precision: 68.8127
+Recall:    71.8224
+F1:        70.2853
+
+Readability:
+flesch reading ease: 76.0450
+LIX:                 35.5000
+Compression Ratio:   42.0290
+
+Novelty:
+Novelty Score: 52.0000
+
+Combined Metric:
+SRB Score: 27.5829
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+joy: 0.8296
+neutral: 0.1168
+surprise: 0.0477
+fear: 0.0039
+sad: 0.0015
+anger: 0.0005
+
+Texte FALC :
+joy: 0.9911
+neutral: 0.0068
+surprise: 0.0012
+sad: 0.0006
+fear: 0.0002
+anger: 0.0001
+
+Texte ref :
+neutral: 0.8262
+joy: 0.1519
+surprise: 0.0096
+sad: 0.0070
+fear: 0.0039
+anger: 0.0013
+
+Distance euclidienne entre text ori et falc predit
+joy: 0.1614
+neutral: 0.1100
+surprise: 0.0465
+fear: 0.0037
+sad: 0.0009
+anger: 0.0004
+0.20083411561654574
+
+Distance euclidienne entre text ori et falc ref
+joy: 0.6777
+neutral: 0.7094
+surprise: 0.0381
+fear: 0.0000
+sad: 0.0056
+anger: 0.0008
+0.9818441178441533
+
+Distance euclidienne entre falc pred et falc ref
+joy: 0.8391
+neutral: 0.8194
+surprise: 0.0084
+sad: 0.0064
+fear: 0.0037
+anger: 0.0012
+1.1729077563603914
+
+
+few shot avec dict: (ministral-3)
+___________________
+@data[2]
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas serre son visage entre ses mains en pensant. Il a peur que Manon soit en danger. Il court vers la clairière et trouve Flairtout déjà prêt avec Luna. Flairtout hurle : *« Viens vite, Lucas! Manon est en danger! »* Lucas pleure en voyant ça, car il ne veut pas qu’elle ait des problèmes. *« Nous partons pour l’Afrique »,* dit Flairtout. Lucas reste choqué, habituellement il ne
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\User\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 1.5954
+ROUGE-L: 11.9658
+SARI Score: 35.3541
+
+BERTScore:
+Precision: 71.2064
+Recall:    73.1129
+F1:        72.1471
+
+Readability:
+flesch reading ease: 85.3098
+LIX:                 20.9697
+Compression Ratio:   63.7363
+
+Novelty:
+Novelty Score: 46.1538
+
+Combined Metric:
+SRB Score: 23.8630
+
+Number of Samples: 1
+Device set to use cpu
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+sad: 0.3944
+fear: 0.3515
+anger: 0.1556
+surprise: 0.0841
+neutral: 0.0086
+joy: 0.0058
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.3770
+sad: 0.1776
+fear: 0.1539
+joy: 0.0624
+anger: 0.1112
+neutral: 0.0032
+0.4622045057424031
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596533
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.3917
+fear: 0.3473
+anger: 0.1546
+surprise: 0.0596
+neutral: 0.3494
+joy: 0.6039
+0.8877937196559178
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cloud:
+______
+gemma4:31b-cloud   avec parametre
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas veut aider son amie Manon. Flairtout, le chien détective, lui dit : « Manon est en danger ! » Lucas a très peur pour son amie. Il a les larmes aux yeux. 
+
+Ils doivent partir vite en Afrique avec la soucoupe volante. Lucas a peur de dire la vérité à ses parents. Alors, il ment au téléphone : « Je vais dormir chez un copain. » 
+
+Lucas et Flairtout s'envolent.
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+
+BLEU Score: 9.6621
+ROUGE-L: 22.4138
+SARI Score: 42.4446
+
+BERTScore:
+Precision: 76.5690
+Recall:    78.2138
+F1:        77.3826
+
+Readability:
+flesch reading ease: 83.1832
+LIX:                 24.5801
+Compression Ratio:   63.7363
+
+Novelty:
+Novelty Score: 33.3333
+
+Combined Metric:
+SRB Score: 36.9921
+
+Number of Samples: 1
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+fear: 0.6768
+surprise: 0.1315
+anger: 0.0860
+sad: 0.0846
+neutral: 0.0135
+joy: 0.0076
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.3296
+sad: 0.1322
+fear: 0.4792
+joy: 0.0606
+anger: 0.0416
+neutral: 0.0016
+0.600951397249452
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596532
+
+Distance euclidienne entre falc pred et falc ref
+fear: 0.6726
+surprise: 0.1070
+anger: 0.0850
+sad: 0.0819
+neutral: 0.3445
+joy: 0.6020
+0.9791963501421532
+
+
+gemma4:31b-cloud   sans parametre
+
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas veut aider. Il va voir son ami Flairtout, le chien détective. Flairtout dit : « Vite Lucas ! Manon est en danger ! » Lucas a très peur pour son amie. Il a envie de pleurer. Ils doivent partir en Afrique dans une soucoupe volante. Lucas a peur car c'est un très long voyage. Il téléphone à ses parents pour mentir. Il dit qu'il dort chez un copain. Lucas et Flairtout partent pour
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+
+BLEU Score: 7.4954
+ROUGE-L: 26.2295
+SARI Score: 42.0730
+
+BERTScore:
+Precision: 75.4006
+Recall:    77.7758
+F1:        76.5698
+
+Readability:
+flesch reading ease: 88.1988
+LIX:                 23.1413
+Compression Ratio:   62.0879
+
+Novelty:
+Novelty Score: 44.4444
+
+Combined Metric:
+SRB Score: 40.0250
+
+Number of Samples: 1
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+fear: 0.6186
+sad: 0.1533
+anger: 0.1088
+surprise: 0.0977
+neutral: 0.0152
+joy: 0.0064
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.3634
+sad: 0.0635
+fear: 0.4210
+joy: 0.0618
+anger: 0.0644
+neutral: 0.0033
+0.5668226751916702
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596532
+
+Distance euclidienne entre falc pred et falc ref
+fear: 0.6144
+sad: 0.1506
+anger: 0.1078
+surprise: 0.0732
+neutral: 0.3428
+joy: 0.6032
+0.9478771129979465
+
+
+ou
+
+Texte original : 
+Lucas prend son visage entre ses mains et réfléchit. Une seule solution : demander conseil à Flairtout, son ami le chien détective. Il remet ses sandales et court jusqu'à la clairière. Flairtout se trouve déjà aux commandes de Luna, sa soucoupe volante. Il s'écrie : « Viens vite, Lucas! Manon est en danger ! ». À ces mots, les yeux de Lucas s'embuent de larmes. Il ne supporterait pas qu'il arrive quoi que ce soit à son amie. « Nous partons la rejoindre en Afrique », continue Flairtout. Lucas n'en revient pas. Lui qui n'a jamais quitté son pays! Il reprend vite ses esprits et décide de laisser un message sur le répondeur de sa maison pour rassurer ses parents. Il compose le numéro et prend sa voix la plus naturelle possible : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous! » Le jeune homme n'a pas l'habitude de mentir, mais il lui semble impossible d'évoquer un départ imminent vers le continent africain. Il imagine leur stupéfaction ! Flairtout lui adresse un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…
+
+FALC predit : 
+Lucas a besoin d'aide. Il court voir son ami Flairtout, le chien détective. Flairtout lui dit : « Viens vite ! Manon est en danger ! ». Lucas a très peur pour son amie. Il a envie de pleurer.
+
+Ils doivent partir en Afrique dans une soucoupe volante. Lucas a peur car il n'a jamais voyagé. 
+
+Lucas appelle ses parents pour mentir. Il dit qu'il dort chez un copain.
+
+FALC ref : 
+Seul, Flairtout, le chien détective, peut aider Lucas. Lucas retrouve Flairtout dans la forêt. Nos 2 amis montent dans la soucoupe. Lucas téléphone à sa maman pour la rassurer. « Luna, décollage ! Nous allons en Afrique retrouver Manon. » En route pour une nouvelle aventure !
+
+BLEU Score: 7.4182
+ROUGE-L: 18.9655
+SARI Score: 40.5620
+
+BERTScore:
+Precision: 73.2905
+Recall:    75.4306
+F1:        74.3452
+
+Readability:
+flesch reading ease: 86.5917
+LIX:                 22.4848
+Compression Ratio:   63.7363
+
+Novelty:
+Novelty Score: 35.7143
+
+Combined Metric:
+SRB Score: 33.0281
+
+Number of Samples: 1
+
+Texte original :
+surprise: 0.4611
+sad: 0.2168
+fear: 0.1976
+joy: 0.0682
+anger: 0.0444
+neutral: 0.0119
+
+Texte FALC :
+fear: 0.5905
+sad: 0.1670
+anger: 0.1323
+surprise: 0.0924
+neutral: 0.0126
+joy: 0.0052
+
+Texte ref :
+joy: 0.6096
+neutral: 0.3580
+surprise: 0.0244
+fear: 0.0042
+sad: 0.0027
+anger: 0.0010
+
+Distance euclidienne entre text ori et falc predit
+surprise: 0.3686
+sad: 0.0498
+fear: 0.3929
+joy: 0.0630
+anger: 0.0879
+neutral: 0.0007
+0.5517589465953586
+cosine pondere: 0.02624456144318532
+
+Distance euclidienne entre text ori et falc ref
+surprise: 0.4367
+sad: 0.2141
+fear: 0.1934
+joy: 0.5414
+anger: 0.0434
+neutral: 0.3461
+0.8298919259596532
+cosine pondere: 0.06903930771587552
+
+Distance euclidienne entre falc pred et falc ref
+fear: 0.5863
+sad: 0.1643
+anger: 0.1313
+surprise: 0.0680
+neutral: 0.3454
+joy: 0.6044
+0.9366006297744361
+cosine pondere: 0.05690226509340879
