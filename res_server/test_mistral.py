@@ -2,13 +2,11 @@ from transformers import AutoTokenizer
 from adapters import AutoAdapterModel
 import torch
 
-# 1. Load the tokenizer and the base Mistral model with adapter capability
+
 base_model_name = "mistralai/Mistral-7B-v0.1"
 tokenizer = AutoTokenizer.from_pretrained(base_model_name)
 tokenizer.pad_token = tokenizer.eos_token
 model = AutoAdapterModel.from_pretrained(base_model_name, torch_dtype=torch.float16)
-# 2. Load your local ETR French adapter weights and activate it
-# Replace "./etr_adapter_folder" with the path to the directory containing your json file
 adapter_name = model.load_adapter("./model/mistral_7b_etr_francois", set_active=True)
 
 if "causal_lm" not in model.heads:
@@ -16,17 +14,14 @@ if "causal_lm" not in model.heads:
 model.set_active_adapters(adapter_name)
 
 model.to("cuda", dtype=torch.float16)
-# 3. Prepare your complex French text to be simplified
 text = "L\u00e9a, pourquoi es-tu triste ? Ce matin, Cl\u00e9ment se r\u00e9veille tout content. Aujourd'hui, c'est l'anniversaire de sa petite s\u0153ur L\u00e9a. Encore en pyjama, il saute de son lit et se pr\u00e9cipite vers la chambre de L\u00e9a. Il est impatient de lui souhaiter son anniversaire. Arriv\u00e9 devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: \u00ab Bon anniversaire, petite s\u0153ur ! \u00bb L\u00e9a, encore un peu endormie, ouvre un \u0153il. La petite fille a eu du mal \u00e0 trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment tr\u00e8s fatigu\u00e9e. Elle aurait voulu se reposer encore un peu. \u00c0 la place, son fr\u00e8re n'arr\u00eate pas de sautiller devant elle en r\u00e9p\u00e9tant gaiement : \u00ab Tu es grande maintenant! \u00bb."
 
-# Format prompt according to how the original ETR-fr model was trained
-# (Usually a simple instruction prompt like "Simplifier le texte suivant :")
 prompt = f"### Instruction:\nSimplifier le texte suivant en français facile à lire (ETR) :\n\n### Texte:\n{text}\n\n### Texte simplifié:\n"
 
 inputs = tokenizer(prompt, return_tensors="pt").to("cuda") # or .to("cpu")
 model.to("cuda")
 
-# 4. Generate the Easy-to-Read output
+
 output_ids = model.generate(
     input_ids=inputs["input_ids"],
     attention_mask=inputs["attention_mask"],
@@ -455,24 +450,14 @@ def compute_distance(res1, res2):
     return distance
 
 def cosinie_distance(res1, res2):
-    # vect2 = np.array([item['score'] for item in res2[0]])
-    # vect1 = np.array([item['score'] for item in res1[0]])
-    # distance = cosine(vect1, vect2)
-
-    # return distance
     dict1 = {item['label']: item['score'] for item in res1[0]}
     dict2 = {item['label']: item['score'] for item in res2[0]}
     
-    # 2. Get a sorted list of all unique emotion keys present in both
-    # (This ensures they are in the exact same alphabetical order)
     all_keys = sorted(list(set(dict1.keys()).union(dict2.keys())))
     
-    # 3. Extract scores aligned perfectly to that sorted key list
-    # (Using .get(key, 0.0) handles cases where an emotion might be missing from one of the results)
     vect1 = np.array([dict1.get(key, 0.0) for key in all_keys])
     vect2 = np.array([dict2.get(key, 0.0) for key in all_keys])
-    
-    # 4. Safely calculate the cosine distance
+
     distance = cosine(vect1, vect2)
     
     return distance
